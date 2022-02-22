@@ -13,5 +13,5 @@
   <li>Simulate the Quanutm Circuit</li>
   <ul><li>To measure Qubits : <code>qc.execute()</code></li>
   <li>Prints a single unitary matrix : <code>qc.unitary()</code></li>
-  <li>Prints the current quantum state of the circuit : <code>qc.state()</code></li>
+  <li>Prints the current quantum state of the circuit : <code>qc.state</code></li>
   <li>Prints the probability of the states : <code>qc.prob()</code></li></ul></ol>
