@@ -296,20 +296,20 @@ class QuantumCircuit:
             
 
     
-    def read_unitary(self):
+    def unitary(self):
         return self.unitary
         
         
     
     
-    def read_state(self):
+    def state(self):
         self.state_vector=self.vector_mat_mul(self.state_vector,self.unitary)
         return self.state_vector
         
     
     
     
-    def observing_probabilities(self):
+    def prob(self):
         self.state_vector=self.vector_mat_mul(self.state_vector,self.unitary)
         prob={}
         for i in range(int(self.pow(2,self.no_of_qubits))):
