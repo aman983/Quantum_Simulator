@@ -1,4 +1,4 @@
-# Quantum_Simulator
+# How to use
 <ol><li>Define Quantum Circuit <code>qc = QuantumCircuit(number_of_qubits)</code></li>
   <br><li>Apply Quantum Gates to the Circuit 
   <ul><li>Pauli-X Gate : <code>qc.x(Index_of_Qubit)</code></li>
